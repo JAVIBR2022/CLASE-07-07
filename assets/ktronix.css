@@ -1,0 +1,51 @@
+.ofertas-destacadas{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Tituloofertasdestacadas{
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 160px;
+}
+
+.Tituloofertasdestacadas div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 4px;
+}
+
+.Tituloofertasdestacadas div b{
+    border-bottom: 2.5px solid #E72F27;
+    font-size: 13px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #004691;
+    padding: 5px 0;
+}
+
+.img-ofertas-dest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-ofertas-dest2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-ofertas-dest2 img{
+    padding: 10px 30px;
+    width: 440px;
+}
+
+.envio-gratis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
