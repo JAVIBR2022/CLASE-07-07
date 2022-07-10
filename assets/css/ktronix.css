@@ -5,9 +5,8 @@
 }
 
 .Tituloofertasdestacadas{
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    margin: 0 160px;
 }
 
 .Tituloofertasdestacadas div{
@@ -28,24 +27,65 @@
 
 .img-ofertas-dest{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+.img-ofertas-dest img{
+    width: 240px;
 }
 
 .img-ofertas-dest2{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
+}
+
+.img-barra img{
+    width: 1024px;
+    margin: 0;
 }
 
 .img-ofertas-dest2 img{
-    padding: 10px 30px;
-    width: 440px;
+    width: 332px;
 }
 
 .envio-gratis{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 20px 0;
+}
+
+.envio-gratis img{
+    width: 1130px;
+}
+
+.section-back-white{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-back-gray{
+    background: #F5F5F5;
+}
+
+.section-back-gray-dark{
+    background: #EBEBEB;
+    height: 46px;
+}
+
+.size-section-ofertas{
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 160px;
+}
+
+.size-section-prin{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 160px;
 }

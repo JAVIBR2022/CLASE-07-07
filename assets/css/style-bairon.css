@@ -118,7 +118,6 @@ button img{
 .user-carrito li{
     display: flex;
     padding: 0 12px;
-    
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -144,6 +143,7 @@ button img{
     align-items: center;
     justify-content: center;
     display: flex;
+    margin: -6px;
 }
 
 .div-menu ul{
@@ -178,7 +178,68 @@ button img{
     display: flex;
     margin: 0px 5px 0px 5px;
     border-right: 1px solid #fff;
-    font-size: 11.3px;
-        
+    font-size: 10.6px;
+    padding: 8px 0;
 }
 
+.medios-pago{
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 160px;
+}
+
+.medios-pago div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 4px;
+}
+
+.medios-pago div b{
+    border-bottom: 2.5px solid #E72F27;
+    font-size: 13px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #004691;
+    padding: 5px 0;
+}
+
+.img-medios-pago{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-medios-pago div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-medios-pago a{
+    font-family: Arial,Helvetica,sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+
+.img-medios-pago div a h4{
+    margin: 0;
+    color: #444444;
+    text-decoration: none;
+    padding: 16px 0 0;
+    font-size: 12px;
+}
+
+.img-medios-pago div h5{
+    margin: 0;
+    text-decoration: underline;
+    color: #E72F27;
+    font-size: 10px;
+}
+
+.img-medios-pago img{
+    width: 125px;
+}
